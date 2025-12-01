@@ -1,0 +1,7 @@
+{
+  "name": "Avvai AI",
+  "description": "A modular business management platform featuring CRM, Bookings, and AI Agent capabilities.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
