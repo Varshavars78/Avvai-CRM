@@ -4,79 +4,24 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Avvai AI - Business Management</title>
-    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <script>
-      tailwind.config = {
-        darkMode: 'class',
-        theme: {
-          extend: {
-            fontFamily: {
-              sans: ['Inter', 'sans-serif'],
-            },
-            colors: {
-              primary: {
-                DEFAULT: '#00AEEF',
-                50: '#e0f7ff',
-                100: '#b3eaff',
-                500: '#00AEEF',
-                600: '#008cbf',
-                700: '#007099',
-              },
-              success: '#3BCF5A',
-              danger: '#FF6B6B',
-              
-              // Semantic colors for theming
-              bg: {
-                light: '#FFFFFF',
-                dark: '#1C1C1C'
-              },
-              sidebar: {
-                light: '#F7F9FB',
-                dark: '#111111'
-              },
-              card: {
-                light: '#FFFFFF',
-                dark: '#262626'
-              },
-              border: {
-                light: '#E5E7EB',
-                dark: '#3A3A3A'
-              },
-              txt: {
-                primary: { light: '#1F2937', dark: '#FFFFFF' },
-                secondary: { light: '#6B7280', dark: '#B3B3B3' }
-              }
-            }
-          }
-        }
-      }
-    </script>
-    <style>
-      /* Custom scrollbar for chat */
-      .scrollbar-hide::-webkit-scrollbar {
-          display: none;
-      }
-      .scrollbar-hide {
-          -ms-overflow-style: none;
-          scrollbar-width: none;
-      }
-    </style>
   <script type="importmap">
 {
   "imports": {
-    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.30.0",
-    "react-router-dom": "https://aistudiocdn.com/react-router-dom@^7.9.6",
-    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.554.0",
-    "clsx": "https://aistudiocdn.com/clsx@^2.1.1",
-    "react/": "https://aistudiocdn.com/react@^19.2.0/",
     "react": "https://aistudiocdn.com/react@^19.2.0",
     "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
-    "zustand": "https://aistudiocdn.com/zustand@^5.0.8",
-    "@supabase/supabase-js": "https://aistudiocdn.com/@supabase/supabase-js@^2.83.0",
-    "zustand/": "https://aistudiocdn.com/zustand@^5.0.8/"
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.30.0",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.555.0",
+    "vite": "https://aistudiocdn.com/vite@^7.2.6",
+    "@vitejs/plugin-react": "https://aistudiocdn.com/@vitejs/plugin-react@^5.1.1",
+    "clsx": "https://aistudiocdn.com/clsx@^2.1.1",
+    "react-router-dom": "https://aistudiocdn.com/react-router-dom@^7.10.0",
+    "@supabase/supabase-js": "https://aistudiocdn.com/@supabase/supabase-js@^2.86.0",
+    "zustand/": "https://aistudiocdn.com/zustand@^5.0.9/",
+    "zustand": "https://aistudiocdn.com/zustand@^5.0.9"
   }
 }
 </script>
@@ -84,6 +29,5 @@
   <body class="bg-bg-light text-txt-primary-light antialiased dark:bg-bg-dark dark:text-txt-primary-dark transition-colors duration-200">
     <div id="root"></div>
     <script type="module" src="/index.tsx"></script>
-
   </body>
 </html>
